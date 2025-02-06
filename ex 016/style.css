@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: blanchedalmond;
+    background-color: aqua;
+}
+
+h2 {
+    color: brown;
+}
+
+p {
+    text-align:justify ;
+}
