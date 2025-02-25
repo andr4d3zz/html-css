@@ -12,6 +12,13 @@ header{
     padding-bottom: 10px;
 }
 
+header img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    translate: 20% -50%;
+}
+
 nav{
     background-color: black ;
     margin: 20px 0px;
@@ -23,9 +30,15 @@ nav{
 nav a{
   text-decoration: none;
   padding: 15px;
-  color: #FFD700;
+  color: #ffd700;
   font-weight: bolder;
 
+}
+
+nav a:hover{
+  transition-duration: 0.5s;
+  background-color: #ffffff;
+  border-radius: 5px;
 }
 
 main{
@@ -44,5 +57,9 @@ article h1 {
 article p{
   font-weight: normal;
   font-size: 1.2em;
+}
+
+img{
+ background-position:center center;
 }
 
